@@ -26,5 +26,5 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["src"]
+  "include": ["src", "public/ModelViewer.tsx", "public/Model3.tsx"]
 }

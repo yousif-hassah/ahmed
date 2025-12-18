@@ -144,7 +144,7 @@ const Contact: React.FC = () => {
               {/* </form>
             </div>
           </div> */}
-          <img src="/public//aaa_121.jpg" alt="" />
+          <img src="./public//aaa_121.jpg" alt="" />
         </div>
       </div>
     </section>

@@ -21,7 +21,7 @@ const portfolioData: Project[] = [
     approach:
       "The project focuses on the people behind the work, exploring their creative journeys, mindsets, and real experiences within the industry.Rather than traditional interviews, the series presents honest conversations that reveal how ideas are shaped, how challenges are faced, and how creativity turns into impactful visual stories.The project aims to document authentic creative voices and reflect the reality of working in drama and advertising, through a calm, human-centered visual approach.",
     result: "",
-    image:"public/1-2.png",
+    image:"./public/1-2.png",
      link:"https://youtube.com/playlist?list=PLVOAbvn0kqtqQ_tfwE6TrV5WjL6IB71mf&si=y4kV71dJn0_dxuRs"
   },
   {
@@ -32,7 +32,7 @@ const portfolioData: Project[] = [
     approach:
       "The platform creates educational and entertaining content that speaks to children in a simple, engaging, and relatable way.Setton explores different worlds of curiosity such as creativity, learning, sports, and imagination, encouraging children to discover their interests while building positive values and confidence.Inspired by classic Arabic children’s content and reimagined through a modern creative lens, Setton aims to shape a new generation of thoughtful, curious, and expressive young minds.",
     result: "",
-    image:"public/setton photo.png",
+    image:"./public/setton photo.png",
       link:"https://youtube.com/@settonkids?si=N2ElvFiLHZ5TLhjn"
   },
 
@@ -47,7 +47,7 @@ const portfolioData: Project[] = [
     result:
       "",
     image:
-      "/public/PH5343831866722683791_121.jpg",
+      "./public/PH5343831866722683791_121.jpg",
       link:'https://www.instagram.com/reel/DD7UnBLTRrB/?igsh=N2c4cWhreW93MXRr '
   },
   {
@@ -60,7 +60,7 @@ const portfolioData: Project[] = [
       "The story follows a young girl as she grows over time, symbolizing the brand’s evolution, until she becomes a star walking the red carpet and arrives at Vanilla to celebrate with a cake marked “20”.The film is elevated through the use of drone shots, adding scale and cinematic depth to the visual storytelling, while reinforcing the sense of achievement, celebration, and legacy.",
     result: "",
     image:
-      "/public/5343831866722683794_121.jpg",
+      "./public/5343831866722683794_121.jpg",
     link: "https://www.instagram.com/reel/DGds4KgKLhn/?igsh=MXI3N2Z2bHhwcjI5Yw==",
   },
   {
@@ -73,7 +73,7 @@ const portfolioData: Project[] = [
       "The work focused on shaping consistent messaging, defining promotional offer structures, and developing engaging narratives that supported the brand’s growth and market presence.This project highlights strategic copywriting, long-term content planning, and creative direction aimed at building a strong and recognizable brand identity.",
     result: "",
     image:
-      "/public/B5343528684981259896_121.jpg",
+      "./public/B5343528684981259896_121.jpg",
       link:"https://www.instagram.com/reel/C_tFnYevR8w/?igsh=eWkwNm5oZG9jbGo2"
   },
   {
@@ -85,7 +85,7 @@ const portfolioData: Project[] = [
     approach:
       "The piece emphasizes product functionality, design details, and user benefits, using clean shots and structured storytelling to communicate value in a concise and effective way.This work reflects an approach that balances technical clarity with visual appeal, aiming to make product features easy to understand and visually compelling for the audience",
     result: "",
-    image:"/public/5343831866722683814_119.jpg",
+    image:"./public/5343831866722683814_119.jpg",
   },
   {
     id: 7,
@@ -97,7 +97,7 @@ const portfolioData: Project[] = [
       "The piece focuses on showing the real energy and potential behind the scenes in a bustling production environment.",
     result:
       "",
-    image:"/public/Q5343831866722683772_121.jpg",
+    image:"./public/Q5343831866722683772_121.jpg",
       link:'https://www.instagram.com/reel/DEnbaPKu1BX/?igsh=MTd4dG5xdHFvN3lobA=='
   },
   {
@@ -110,7 +110,7 @@ const portfolioData: Project[] = [
       "The piece challenges traditional beauty visuals, combining medical precision with artistic expression to create a distinctive and memorable brand presence.",
     result: "",
     image:
-      "/public/5343831866722683834_121.jpg",
+      "./public/5343831866722683834_121.jpg",
       link:'https://www.instagram.com/reel/DEDZJXRR0kG/?igsh=YmpsdDI5b2JxNDcy'
   },
 ];

@@ -1,6 +1,6 @@
 import React from "react";
 import Threads from "./Threads";
-import Model3 from "./Model3";
+import Model3 from "../../public/Model3";
 
 const About: React.FC = () => {
   return (

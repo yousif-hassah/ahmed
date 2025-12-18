@@ -67,7 +67,7 @@
 // export default Hero;
 
 import React from "react";
-import ModelViewer from "./ModelViewer";
+import ModelViewer from "../../public/ModelViewer";
 
 const Hero: React.FC = () => {
   const scrollToSection = (id: string) => {
@@ -86,7 +86,7 @@ const Hero: React.FC = () => {
       <div className="container mx-auto px-6 z-10">
         <div className="max-w-3xl mx-auto text-center">
           <h1 className="text-4xl md:text-6xl font-playfair font-bold mb-6 animate-fade-in">
-           The story begins here <span className="text-pistachio"></span> {" "}
+            The story begins here <span className="text-pistachio"></span>{" "}
             <span className="text-pistachio"></span>
           </h1>
 
