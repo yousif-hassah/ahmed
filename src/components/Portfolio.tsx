@@ -123,7 +123,7 @@ const Portfolio: React.FC = () => {
   };
 
   return (
-    <section id="portfolio" className="section-padding bg-black">
+    <section id="Portfolio" className="section-padding bg-black">
       <div className="container mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-playfair font-bold mb-4">
