@@ -81,8 +81,9 @@ const portfolioData: Project[] = [
       "A product-focused video highlighting the key features of TECNO smartphones through clear and engaging visual presentation.",
     approach:
       "The piece emphasizes product functionality, design details, and user benefits, using clean shots and structured storytelling to communicate value in a concise and effective way.This work reflects an approach that balances technical clarity with visual appeal, aiming to make product features easy to understand and visually compelling for the audience",
-    result: "",
+   result: "",
     image: "/5343831866722683814_119.jpg",
+    link:"https://www.instagram.com/reel/DDM63-yJIho/?igsh=a3V1YjhtODZpc3F6"
   },
   {
     id: 7,
