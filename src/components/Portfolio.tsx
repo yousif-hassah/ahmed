@@ -68,7 +68,7 @@ const portfolioData: Project[] = [
     challenge:
       "Content development and brand storytelling project for Billionaire, where I created over 30 video scripts and scenariosdesigned to strengthen the brand’s voice and positioning.",
     approach:
-      "The work focused on shaping consistent messaging, defining promotional offer structures, and developing engaging narratives that supported the brand’s growth and market presence.This project highlights strategic copywriting, long-term content planning, and creative direction aimed at building a strong and recognizable brand identity.",
+      "The work focused on shaping consistent messaging, defining promotional offer structures, and developing engaging narratives that supported the brand’s growth and market presence.This project highlights strategic copywriting, long-term content planning, and creative direction aimed at building a strong and recognizable brand identity." ,
     result: "",
     image: "/B5343528684981259896_121.jpg",
     link: "https://www.instagram.com/reel/C_tFnYevR8w/?igsh=eWkwNm5oZG9jbGo2",
