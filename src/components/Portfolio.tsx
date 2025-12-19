@@ -11,7 +11,7 @@ interface Project {
   link?: string;
 }
 
-const portfolioData: Project[] = [
+const PortfolioData: Project[] = [
   {
     id: 1,
     title: "Creative Stories",
@@ -133,7 +133,7 @@ const Portfolio: React.FC = () => {
         </div>
 
         <div className="grid md:grid-cols-2 gap-8">
-          {portfolioData.map((project, index) => (
+          {PortfolioData.map((project, index) => (
             <div
               key={project.id}
               onClick={() => openProject(project)}
