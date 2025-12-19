@@ -111,7 +111,7 @@ const PortfolioData: Project[] = [
   },
 ];
 
-const projects: React.FC = () => {
+const Portfolio: React.FC = () => {
   const [activeProject, setActiveProject] = useState<Project | null>(null);
 
   const openProject = (project: Project) => {
