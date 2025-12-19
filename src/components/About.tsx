@@ -21,7 +21,7 @@ const About: React.FC = () => {
               /> */}
               <div className="absolute inset-0 flex items-center justify-center z-0">
                 <Model3
-                  url="/public/knight__chibi_sf_101.glb"
+                  url="/knight__chibi_sf_101.glb"
                   width="100%"
                   height="100%"
                   autoRotate={false}

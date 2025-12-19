@@ -1,61 +1,73 @@
-
-import React, { useState } from 'react';
+import React, { useState } from "react";
 import { toast } from "sonner";
 
 const Contact: React.FC = () => {
   const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    subject: '',
-    message: ''
+    name: "",
+    email: "",
+    subject: "",
+    message: "",
   });
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
+  const handleChange = (
+    e: React.ChangeEvent<
+      HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement
+    >
+  ) => {
     const { name, value } = e.target;
-    setFormData(prev => ({
+    setFormData((prev) => ({
       ...prev,
-      [name]: value
+      [name]: value,
     }));
   };
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    
+
     // Simulate form submission
     toast.success("Message sent! I'll get back to you soon.", {
       description: "Thanks for reaching out!",
     });
-    
+
     // Clear form after submission
     setFormData({
-      name: '',
-      email: '',
-      subject: '',
-      message: ''
+      name: "",
+      email: "",
+      subject: "",
+      message: "",
     });
   };
 
   return (
-    <section id="contact" className="section-padding "style={{ backgroundColor: '#1B1B1D' }}>
+    <section
+      id="contact"
+      className="section-padding "
+      style={{ backgroundColor: "#1B1B1D" }}
+    >
       <div className="container mx-auto">
         <div className="grid md:grid-cols-2 gap-12">
           {/* Contact Info */}
           <div className="opacity-0 animate-fade-in">
-            <h2 className="text-3xl md:text-4xl font-playfair font-bold mb-6">Experience</h2>
-            
+            <h2 className="text-3xl md:text-4xl font-playfair font-bold mb-6">
+              Experience
+            </h2>
+
             <p className="mb-8 text-lg">
-            
-          Since 2020 
-          I have been working in writing and directing advertising and artistic campaigns, developing the visual  concept of each campaign and leading its execution through a powerful, narrative-driven approach.
-          
-          Since 2023 
-          Creative Director at “Setton – Future Makers” I lead the development of the visual identity and storytelling for children’s worlds, producing educational and entertainment content with a contemporary Iraqi spirit.
-          
-          Podcast Production & Direction I create audio-visual experiences focused on creativity, writing and directing episodes  that transform ideas into genuine, story-driven conversations.
-          
-          Regional Collaborations I have delivered advertising and narrative projects in collaboration with teams in Saudi Arabia and Egypt, with an approach that balances creative thinking and cultural identity
+              Since 2020 I have been working in writing and directing
+              advertising and artistic campaigns, developing the visual concept
+              of each campaign and leading its execution through a powerful,
+              narrative-driven approach. Since 2023 Creative Director at “Setton
+              – Future Makers” I lead the development of the visual identity and
+              storytelling for children’s worlds, producing educational and
+              entertainment content with a contemporary Iraqi spirit. Podcast
+              Production & Direction I create audio-visual experiences focused
+              on creativity, writing and directing episodes that transform ideas
+              into genuine, story-driven conversations. Regional Collaborations
+              I have delivered advertising and narrative projects in
+              collaboration with teams in Saudi Arabia and Egypt, with an
+              approach that balances creative thinking and cultural identity
             </p>
-            
+
             {/* <div className="bg-white p-6 rounded-lg shadow-md">
               <h3 className="font-playfair font-semibold text-xl mb-4">What happens next?</h3>
               
@@ -84,7 +96,7 @@ const Contact: React.FC = () => {
               </ol>
             </div> */}
           </div>
-          
+
           {/* Contact Form
           <div className="opacity-0 animate-fade-in animate-delay-200">
             <div className="bg-white p-6 md:p-8 rounded-lg shadow-md">
@@ -141,10 +153,10 @@ const Contact: React.FC = () => {
                     Send Message
                   </button>
                 </div> */}
-              {/* </form>
+          {/* </form>
             </div>
           </div> */}
-          <img src="./public//aaa_121.jpg" alt="" />
+          <img src="/aaa_121.jpg" alt="" />
         </div>
       </div>
     </section>

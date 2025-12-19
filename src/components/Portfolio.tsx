@@ -21,19 +21,20 @@ const portfolioData: Project[] = [
     approach:
       "The project focuses on the people behind the work, exploring their creative journeys, mindsets, and real experiences within the industry.Rather than traditional interviews, the series presents honest conversations that reveal how ideas are shaped, how challenges are faced, and how creativity turns into impactful visual stories.The project aims to document authentic creative voices and reflect the reality of working in drama and advertising, through a calm, human-centered visual approach.",
     result: "",
-    image:"./public/1-2.png",
-     link:"https://youtube.com/playlist?list=PLVOAbvn0kqtqQ_tfwE6TrV5WjL6IB71mf&si=y4kV71dJn0_dxuRs"
+    image: "/1-2.png",
+    link: "https://youtube.com/playlist?list=PLVOAbvn0kqtqQ_tfwE6TrV5WjL6IB71mf&si=y4kV71dJn0_dxuRs",
   },
   {
     id: 2,
     title: "Setton",
     category: "Creative Director Director",
-    challenge:"Setton is a creative content platform focused on children, built to deliver safe, meaningful, and culturally rooted storytelling.",
+    challenge:
+      "Setton is a creative content platform focused on children, built to deliver safe, meaningful, and culturally rooted storytelling.",
     approach:
       "The platform creates educational and entertaining content that speaks to children in a simple, engaging, and relatable way.Setton explores different worlds of curiosity such as creativity, learning, sports, and imagination, encouraging children to discover their interests while building positive values and confidence.Inspired by classic Arabic children’s content and reimagined through a modern creative lens, Setton aims to shape a new generation of thoughtful, curious, and expressive young minds.",
     result: "",
-    image:"./public/setton photo.png",
-      link:"https://youtube.com/@settonkids?si=N2ElvFiLHZ5TLhjn"
+    image: "/setton photo.png",
+    link: "https://youtube.com/@settonkids?si=N2ElvFiLHZ5TLhjn",
   },
 
   {
@@ -44,11 +45,9 @@ const portfolioData: Project[] = [
       "A creative Instagram reel featuring Iraqi influencer Mais Thaer (Masa), presenting the iPhone 16 as a close companion rather than just a device.",
     approach:
       "Through reflective visuals on the phone’s mirror-like surface, iconic Iraqi landmarks appear as shared moments, reinforcing the idea of the phone as a trusted friend that captures memories and identity.The piece blends emotional storytelling with visual concepting, connecting technology, personal experience, and cultural presence in a subtle and engaging way.",
-    result:
-      "",
-    image:
-      "./public/PH5343831866722683791_121.jpg",
-      link:'https://www.instagram.com/reel/DD7UnBLTRrB/?igsh=N2c4cWhreW93MXRr '
+    result: "",
+    image: "/PH5343831866722683791_121.jpg",
+    link: "https://www.instagram.com/reel/DD7UnBLTRrB/?igsh=N2c4cWhreW93MXRr ",
   },
   {
     id: 4,
@@ -59,8 +58,7 @@ const portfolioData: Project[] = [
     approach:
       "The story follows a young girl as she grows over time, symbolizing the brand’s evolution, until she becomes a star walking the red carpet and arrives at Vanilla to celebrate with a cake marked “20”.The film is elevated through the use of drone shots, adding scale and cinematic depth to the visual storytelling, while reinforcing the sense of achievement, celebration, and legacy.",
     result: "",
-    image:
-      "./public/5343831866722683794_121.jpg",
+    image: "/5343831866722683794_121.jpg",
     link: "https://www.instagram.com/reel/DGds4KgKLhn/?igsh=MXI3N2Z2bHhwcjI5Yw==",
   },
   {
@@ -72,9 +70,8 @@ const portfolioData: Project[] = [
     approach:
       "The work focused on shaping consistent messaging, defining promotional offer structures, and developing engaging narratives that supported the brand’s growth and market presence.This project highlights strategic copywriting, long-term content planning, and creative direction aimed at building a strong and recognizable brand identity.",
     result: "",
-    image:
-      "./public/B5343528684981259896_121.jpg",
-      link:"https://www.instagram.com/reel/C_tFnYevR8w/?igsh=eWkwNm5oZG9jbGo2"
+    image: "/B5343528684981259896_121.jpg",
+    link: "https://www.instagram.com/reel/C_tFnYevR8w/?igsh=eWkwNm5oZG9jbGo2",
   },
   {
     id: 6,
@@ -85,7 +82,7 @@ const portfolioData: Project[] = [
     approach:
       "The piece emphasizes product functionality, design details, and user benefits, using clean shots and structured storytelling to communicate value in a concise and effective way.This work reflects an approach that balances technical clarity with visual appeal, aiming to make product features easy to understand and visually compelling for the audience",
     result: "",
-    image:"./public/5343831866722683814_119.jpg",
+    image: "/5343831866722683814_119.jpg",
   },
   {
     id: 7,
@@ -95,10 +92,9 @@ const portfolioData: Project[] = [
       "This reel showcases the Journey of Qasr Aliya—a unique hub hosting over 100,000 offices and manufacturers, highlighting a vibrant space full of opportunities and creative work.",
     approach:
       "The piece focuses on showing the real energy and potential behind the scenes in a bustling production environment.",
-    result:
-      "",
-    image:"./public/Q5343831866722683772_121.jpg",
-      link:'https://www.instagram.com/reel/DEnbaPKu1BX/?igsh=MTd4dG5xdHFvN3lobA=='
+    result: "",
+    image: "/Q5343831866722683772_121.jpg",
+    link: "https://www.instagram.com/reel/DEnbaPKu1BX/?igsh=MTd4dG5xdHFvN3lobA==",
   },
   {
     id: 8,
@@ -109,9 +105,8 @@ const portfolioData: Project[] = [
     approach:
       "The piece challenges traditional beauty visuals, combining medical precision with artistic expression to create a distinctive and memorable brand presence.",
     result: "",
-    image:
-      "./public/5343831866722683834_121.jpg",
-      link:'https://www.instagram.com/reel/DEDZJXRR0kG/?igsh=YmpsdDI5b2JxNDcy'
+    image: "/5343831866722683834_121.jpg",
+    link: "https://www.instagram.com/reel/DEDZJXRR0kG/?igsh=YmpsdDI5b2JxNDcy",
   },
 ];
 
@@ -133,9 +128,7 @@ const Portfolio: React.FC = () => {
           <h2 className="text-3xl md:text-4xl font-playfair font-bold mb-4">
             Featured Projects
           </h2>
-          <p className="max-w-xl mx-auto">
-            A selection of recent projects .
-          </p>
+          <p className="max-w-xl mx-auto">A selection of recent projects .</p>
         </div>
 
         <div className="grid md:grid-cols-2 gap-8">
@@ -248,19 +241,21 @@ const Portfolio: React.FC = () => {
                     <h4 className="font-medium text-pistachio mb-2">
                       {/* The Challenge */}
                     </h4>
-                    <p >{activeProject.challenge}</p>
+                    <p>{activeProject.challenge}</p>
                   </div>
                   <div className="text-black">
                     <h4 className="font-medium text-pistachio mb-2">
                       {/* My Approach */}
-                    </h4 >
+                    </h4>
                     <p>{activeProject.approach}</p>
                   </div>
                   <div>
                     <h4 className="font-medium text-pistachio mb-2">
                       {/* The Result */}
                     </h4>
-                    <p className=" text-pistachio mb-2">{activeProject.result}</p>
+                    <p className=" text-pistachio mb-2">
+                      {activeProject.result}
+                    </p>
                   </div>
                 </div>
               </div>

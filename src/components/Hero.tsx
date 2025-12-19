@@ -116,7 +116,7 @@ const Hero: React.FC = () => {
       {/* 3D Model Viewer Container */}
       <div className="absolute inset-0 flex items-center justify-center z-0">
         <ModelViewer
-          url="/public/iron_howl_v8.glb"
+          url="/iron_howl_v8.glb"
           width="100%"
           height="100%"
           autoRotate={true}

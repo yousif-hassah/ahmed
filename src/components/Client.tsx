@@ -4,13 +4,13 @@ import InfiniteMenu from "./InfiniteMenu";
 const Testimonials: React.FC = () => {
   const items = [
     {
-      image: "/public/saitama.jpg",
+      image: "/saitama.jpg",
       link: "https://www.youtube.com/watch?v=H4FJJcNrMv0&list=RDH4FJJcNrMv0&start_radio=1",
       title: "Item 1",
       description: "This is pretty cool, right?",
     },
     {
-      image: "/public/5363902884548310224_120.jpg",
+      image: "/5363902884548310224_120.jpg",
       link: "https://google.com/",
       title: "Item 2",
       description: "This is pretty cool, right?",
@@ -28,7 +28,7 @@ const Testimonials: React.FC = () => {
       description: "This00knkjn",
     },
     {
-      image: "/public/one.jpeg",
+      image: "/one.jpeg",
       link: "https://google.com/",
       title: "",
       description: "",
